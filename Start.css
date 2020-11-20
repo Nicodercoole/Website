@@ -102,3 +102,33 @@ a{
     font-size: 25px;
     color: orangered;
 }
+
+#unten {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 15px;
+    background: #00AA55;
+}
+
+#unten p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#social_icons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#social_icons a {
+    padding: 10px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+#social_ig {
+    background: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+}
