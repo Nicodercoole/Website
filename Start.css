@@ -1,0 +1,54 @@
+
+body {
+    background-color: darkgray;
+}
+
+#Begrüßung {
+    font-size: 50px;
+    padding-left: 1000px;
+    padding-top: 450px;
+    color: coral;
+}
+
+h1 {
+    color: aqua;
+}
+
+#logo {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo_text a {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+    #nav ul li {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: 100;
+    }
+
+
+#home {
+    color: antiquewhite;
+    font-size: 22px;
+}
+
+    #home:hover {
+        cursor: pointer;
+        color: chartreuse;
+    }
