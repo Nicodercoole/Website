@@ -132,3 +132,68 @@ a{
 #social_ig {
     background: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
 }
+
+
+
+#gallery {
+  width: 20em;
+  height: 15em;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media (min-width: 40em)  { 
+#gallery {
+  width: 40em;
+  height: 30em;
+}
+}
+
+@media (max-width: 60em)  { 
+#gallery {
+  width: 60em;
+  height: 45em;
+}
+}
+  
+#gallery figure {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#gallery figcaption {
+  position: absolute;
+  left: 1em;
+  bottom: 1em;
+  color: white;
+}
+
+#gallery img {
+  width: 100%;
+  margin: 0;
+  padding: 0;  
+}
+#gallery figure {
+  height: 100%;
+  animation: slide 18s infinite ease-in-out;
+}
+
+#gallery:hover figure {
+  animation-play-state: paused;
+}
+@keyframes slide {
+    0%     {top: 0}
+    12%  {top: 0}
+    16%  {top: -100%}
+    28%  {top: -100%}
+    32%  {top: -200%}
+    44%  {top: -200%}
+    48%  {top: -300%}
+    60%  {top: -300%}
+    65%  {top: -400%}
+    78%  {top: -400%}
+    83%  {top: -500%}
+    95%  {top: -500%}
+    100% {top: 0}
