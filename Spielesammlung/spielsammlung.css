@@ -197,3 +197,34 @@ a{
     83%  {top: -500%}
     95%  {top: -500%}
     100% {top: 0}
+}
+
+#download{
+    
+    color:black;
+    font-size: 20px;
+    background-color: red
+
+    
+}
+
+#download{
+	display:inline-block;
+	margin:20px;
+	text-decoration:none;
+	font-family:Arial;
+	font-size:35px;
+	border:2px solid #5BBB2B;
+	border-radius:10px;
+	color:#5BBB2B;
+	background-color:#C0E9B5;
+	padding:3px 7px;
+    margin-left: 233px;
+    
+}
+#download:hover{
+	color:#fff;
+	background-color:#5BBB2B;
+    cursor: pointer;
+    
+}
