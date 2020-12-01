@@ -202,7 +202,7 @@ a{
 #download{
     
     color:black;
-    font-size: 20px;
+    font-size: 2px;
     background-color: red
 
     
@@ -210,7 +210,7 @@ a{
 
 #download{
 	display:inline-block;
-	margin:20px;
+	margin:2px;
 	text-decoration:none;
 	font-family:Arial;
 	font-size:35px;
